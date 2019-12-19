@@ -1,0 +1,3 @@
+require "OneButton"
+
+OneButton:OnClick()
