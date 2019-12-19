@@ -280,7 +280,7 @@ public class LuaClient : MonoBehaviour
         }
     }
 
-    public virtual void CallFunc(string func, string obj)
+    public virtual void CallFunc(string func, GameObject obj)
     {
         LuaFunction luaFunc = luaState.GetFunction(func);
         luaFunc.Call(obj);

@@ -1,3 +1,1 @@
 require "OneButton"
-
-OneButton:OnClick()

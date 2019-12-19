@@ -22,6 +22,6 @@ public class UIModule : MonoBehaviour
 
         LuaManager.Instance.LuaClient.luaState.DoFile("OneButton.lua");
         string func =""+ ModuleName + ".OnClick";
-        LuaManager.Instance.LuaClient.CallFunc(func, btn.name);
+        LuaManager.Instance.LuaClient.CallFunc(func, btn);
     }
 }
